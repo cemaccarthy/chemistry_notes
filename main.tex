@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage[margin=1in]{geometry}
+
+\title{Chemistry Test Document}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Simple Molecules}
+
+Benzene, drawn as a hexagon with alternating double bonds:
+
+\[
+\chemfig{*6(=-=-=-)}
+\]
+
+Ethanol:
+
+\[
+\chemfig{CH_3-CH_2-OH}
+\]
+
+Aspirin (acetylsalicylic acid), a slightly more involved example:
+
+\[
+\chemfig{*6(-COOH=(-OH)-=-(-O-C(=[2]O)-CH_3)=)}
+\]
+
+\section{Chemical Equations (mhchem)}
+
+A simple acid-base reaction:
+
+\[
+\ce{HCl + NaOH -> NaCl + H2O}
+\]
+
+An equilibrium reaction:
+
+\[
+\ce{N2 + 3H2 <=> 2NH3}
+\]
+
+\end{document}
